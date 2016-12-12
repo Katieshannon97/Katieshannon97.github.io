@@ -57,8 +57,14 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: darkgrey;
+    background-color: green;
 }
 
+#social media img{
+    max-height: 20px;
+    max-width: 20px;
+    border:solid 1px red;
+    
 
+}
 
