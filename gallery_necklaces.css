@@ -1,20 +1,14 @@
-h1{
-   font-family: helvetica;
-    font-size: 2em;
-    float: right;
-    font-family: 'Raleway', sans-serif;
+.mySlides{
+   display: block;
+    margin:auto 
 }
 
-#background img{
-    object-fit:cover;
-    width: 100%;
-    margin: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    opacity: 0.5;
+
+body{
+    
+    background-color: whitesmoke
 }
+
 a:link, a:visited {
     background-color: grey;
     color: white;
@@ -22,15 +16,17 @@ a:link, a:visited {
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    margin: 5px 5px 5px 5px;
+    border-radius: 8px;
 }
 
 a:hover, a:active {
     background-color: darkgrey;
+      border-radius: 8px;
 }
 
-nav{
+   nav{
     float:center;   
-    padding-top: 180px;
     padding-left: 280px;
     font-family: 'Raleway', sans-serif;
 }

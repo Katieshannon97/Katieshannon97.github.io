@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>necklace gallery</title>
+  <link rel="stylesheet" href="gallery_necklaces.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body>
+
+      
+        <a href="index.html"><img src="images/hk%20design%20white.png" width=100 height=60/></a>
+    
+       <nav>
+            <a href="gallery_necklaces.html">necklaces</a>
+            <a href="gallery_bracelets.html">bracelets</a>
+            <a href="gallery_earrings.html">earrings</a>
+
+        </nav>
+
+<div class="w3-content w3-display-container">
+  <figure>
+  <img class="mySlides" src="images/14800118_10207531966922002_1138421562_o%20copy.jpg" style="width:50%" height="70%"><figcaption>16" necklance made using pink and navy swavarski crystals</figcaption>
+  </figure>
+  <img class="mySlides" src="images/14858647_10207531986202484_857427621_o.jpg" style="width:50%" height="70%">
+  <img class="mySlides" src="images/14858732_10207531942881401_808674065_o.jpg" style="width:50%" height="70%">
+  <img class="mySlides" src="images/14875956_10207531936281236_388205827_o%20copy.jpg" style="width:50%" height="70%">
+  <img class="mySlides" src="images/14881570_10207531922520892_1843479677_o.jpg" style="width:50%" height="70%">
+
+  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

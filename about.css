@@ -9,15 +9,6 @@ p, p1, p2, p3{
     font-size: 12pt; 
     font-family: 'Raleway', sans-serif;
 }
-s
-
-#logo img{
-    position: absolute;
-    max-height: 30px;
-    max-width: 30px;
-/*    min-width: 5px;*/
-    float: left;
-}
 
 #background img{
     object-fit:cover;
@@ -33,4 +24,18 @@ s
 h1{
     font-family: 'Raleway', sans-serif;
     float: right;
+}
+
+a:link, a:visited {
+    background-color: grey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+a:hover, a:active {
+    background-color: darkgrey;
 }
