@@ -43,8 +43,9 @@ body{
 
 nav{
     float:right;   
-    padding-top: 30px;
+    padding-top: 60px;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 a:link, a:visited {
@@ -57,14 +58,10 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: green;
+    background-color: darkgrey;
 }
 
-#social media img{
-    max-height: 20px;
-    max-width: 20px;
-    border:solid 1px red;
-    
-
+footer{
+display:block
 }
 
