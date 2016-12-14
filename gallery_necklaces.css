@@ -17,12 +17,12 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
     margin: 5px 5px 5px 5px;
-    border-radius: 8px;
+     border-radius: 8px;
+   
 }
 
 a:hover, a:active {
     background-color: darkgrey;
-      border-radius: 8px;
 }
 
    nav{

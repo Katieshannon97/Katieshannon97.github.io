@@ -43,14 +43,18 @@ a:hover, a:active {
 }
 
 footer{
-position: absolute;
+position: fixed;
 display: block;
 right: 0;
 bottom: 0;
-left:0;
+left:0; 
+background-color: lightgrey;
+height: 55px;
 }
 .fa-twitter-square{
     font-size: 2em !important;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 .fa-facebook-official{
     font-size: 2em !important;
@@ -59,3 +63,9 @@ left:0;
     font-size: 2em !important;
 }
 
+.email{
+    padding-left: 600px;
+    padding-top: 50px;
+ 
+    
+}
