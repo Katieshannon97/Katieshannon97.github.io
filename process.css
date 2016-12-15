@@ -1,21 +1,9 @@
-h1{
-   font-family: helvetica;
-    font-size: 2em;
-    float: right;
-    font-family: 'Raleway', sans-serif;
-    color: white;
+body{
+    background-color: lightgrey;
+    
+    
 }
 
-#background img{
-    object-fit:cover;
-    width: 100%;
-    margin: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    opacity: 0.5;
-}
 a:link, a:visited {
     background-color: grey;
     color: white;
@@ -31,8 +19,20 @@ a:hover, a:active {
 }
 
 nav{
+/*
     float:center;   
     padding-top: 180px;
     padding-left: 350px;
+*/
+    font-family: 'Raleway', sans-serif;
+    float:right;
+    padding-top:-15px
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;   
+}
+
+ul{
     font-family: 'Raleway', sans-serif;
 }

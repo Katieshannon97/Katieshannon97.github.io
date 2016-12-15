@@ -24,6 +24,7 @@ p, p1, p2, p3{
 h1{
     font-family: 'Raleway', sans-serif;
     float: right;
+    color: white;
 }
 
 a:link, a:visited {
