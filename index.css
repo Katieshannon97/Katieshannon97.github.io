@@ -1,3 +1,7 @@
+nav, footer, div{
+/*    border: 2px solid red ;*/
+
+}
 
 #background img{
     object-fit:cover;
@@ -23,7 +27,7 @@ nav{
     float:right;   
     padding-top: 60px;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 
 a:link, a:visited {
@@ -39,33 +43,42 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: darkgrey;
-      border-radius: 8px;
+    border-radius: 8px;
 }
 
-footer{
-position: fixed;
-display: block;
-right: 0;
-bottom: 0;
-left:0; 
-background-color: lightgrey;
-height: 55px;
-}
-.fa-twitter-square{
-    font-size: 2em !important;
-    padding-left: 50px;
-    padding-top: 10px;
-}
-.fa-facebook-official{
-    font-size: 2em !important;
-}
-.fa-instagram{
-    font-size: 2em !important;
+footer {
+    position: fixed;
+    bottom: 0;
+    left:0; 
+    width: 100% ;
+    background-color: lightgrey;
+    height: 55px;
+    padding-top: 2% ;
+    font-family: 'Raleway', sans-serif;
 }
 
-.email{
-    padding-left: 600px;
-    padding-top: 50px;
- 
-    
+footer #social .fa {
+    padding-right: 10px ;
+    font-size: 1.3em ;
 }
+
+footer #email {
+    width: 33% ;
+    float: left;
+    text-align: center;
+}
+
+footer #phone {
+    width: 33% ;
+    float: left;
+    text-align: center;
+}
+
+footer #social {
+    width: 33% ;
+    float: left;
+    text-align: center;
+}
+
+
+

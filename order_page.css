@@ -1,4 +1,15 @@
-h1{
+#order{
+    
+    display: block;
+    padding-top: 200px
+    
+}
+
+.contine_button{
+font-family: 'Raleway', sans-serif;
+}
+    
+    h1{
    font-family: helvetica;
     font-size: 2em;
     float: right;
@@ -49,38 +60,3 @@ nav{
     padding-left: 350px;
     font-family: 'Raleway', sans-serif;
 }
-
-footer {
-    position: fixed;
-    bottom: 0;
-    left:0; 
-    width: 100% ;
-    background-color: lightgrey;
-    height: 55px;
-    padding-top: 2% ;
-    font-family: 'Raleway', sans-serif;
-}
-
-footer #social .fa {
-    padding-right: 10px ;
-    font-size: 1.3em ;
-}
-
-footer #email {
-    width: 33% ;
-    float: left;
-    text-align: center;
-}
-
-footer #phone {
-    width: 33% ;
-    float: left;
-    text-align: center;
-}
-
-footer #social {
-    width: 33% ;
-    float: left;
-    text-align: center;
-}
-
