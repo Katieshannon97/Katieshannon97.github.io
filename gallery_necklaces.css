@@ -17,7 +17,7 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
     margin: 5px 5px 5px 5px;
-     border-radius: 8px;
+    border-radius: 8px;
    
 }
 
@@ -27,6 +27,6 @@ a:hover, a:active {
 
    nav{
     float:center;   
-    padding-left: 280px;
+    padding-left: 430px;
     font-family: 'Raleway', sans-serif;
 }
